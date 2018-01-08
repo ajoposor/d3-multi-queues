@@ -1,4 +1,6 @@
-# d3-queue
+# d3-muti-queues
+
+This is a multi queues version of d3-queue. It arises from the need of handling multiple queues with one common wait. It extends the original d3-queue to handle an array of queues.
 
 A **queue** evaluates zero or more *deferred* asynchronous tasks with configurable concurrency: you control how many tasks run at the same time. When all the tasks complete, or an error occurs, the queue passes the results to your *await* callback. This library is similar to [Async.js](https://github.com/caolan/async)’s [parallel](https://github.com/caolan/async#paralleltasks-callback) (when *concurrency* is infinite), [series](https://github.com/caolan/async#seriestasks-callback) (when *concurrency* is 1), and [queue](https://github.com/caolan/async#queue), but features a much smaller footprint: as of release 2, d3-queue is about 700 bytes gzipped, compared to 4,300 for Async.
 
