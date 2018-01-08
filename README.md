@@ -1,4 +1,4 @@
-# d3-muti-queues
+# d3-multi-queues
 
 This is a multi queues version of d3-queue. It arises from the need of handling multiple queues with one common wait. It extends the original d3-queue to handle an array of queues.
 
